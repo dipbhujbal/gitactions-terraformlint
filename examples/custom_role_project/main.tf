@@ -26,7 +26,7 @@ module "custom-role-project" {
   base_roles           = var.base_roles
   permissions          = var.permissions
   excluded_permissions = var.excluded_permissions
-  description          = "This is a project level custom role and testing github actions for PR ACTIONS module"
+  description          = "This is a project level custom role and testing github actions for PR ACTIONS module branch terraform lint"
   members              = var.members
 }
 
